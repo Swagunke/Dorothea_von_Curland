@@ -311,7 +311,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/Swagunke/Dorothea_von_Curland/main/Repro_VD_2019_130_01_NL_Biron_Abt_A_Nr_I_0255.xml?note_annotation_20230913163707979#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p/note[3]"
+			"rdf:value": "TEI/text/body/p/note[4]"
 		}
 	},
 	"oa:hasBody": {
@@ -486,6 +486,85 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/Swagunke/Dorothea_von_Curland/main/Repro_VD_2019_130_01_NL_Biron_Abt_A_Nr_I_0255.xml?note_annotation_20230913164019817",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-09-13T14:40:19.817Z",
+	"dcterms:modified": "2023-09-13T14:40:19.817Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/Swagunke",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Swagunke"
+	},
+	"oa:motivatedBy": "oa:describing",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/Swagunke/Dorothea_von_Curland/main/Repro_VD_2019_130_01_NL_Biron_Abt_A_Nr_I_0255.xml?note_annotation_20230913164019817#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/Swagunke/Dorothea_von_Curland/main/Repro_VD_2019_130_01_NL_Biron_Abt_A_Nr_I_0255.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.2.2"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/Swagunke/Dorothea_von_Curland/main/Repro_VD_2019_130_01_NL_Biron_Abt_A_Nr_I_0255.xml?note_annotation_20230913164019817#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p/note[3]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:Note",
+		"dc:format": "text/plain",
+		"rdf:value": "Nicht lesbar. "
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.2.2"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
     <text>
         <body>
@@ -500,7 +579,7 @@
 <lb/>genehme Sachen sagte ich kaum vor Erstaunen hörte, denn er zeigte
 <lb/>mir den über eilten Brief von <persName cert="high">Eckhold</persName> der Belmonte ausfodert<note type="researchNote">www.woerterbuchnetz.de/DWB/ausfodern </note> , weil er ihn
 <lb/>einen schlechten Menschen geheißen hatte u. zugleich versicherte Fircks$ der ältere 
-<lb/>würde ihn als Secundannt assistiren – dieser wuste zwar nichts davon, u. Eckholts$  
+<lb/>würde ihn als Secundannt assistiren – dieser wuste zwar nichts davon, u. Eckholts<note>Nicht lesbar. </note>$  
 <lb/>aber<note>Lesung unsicher. </note>  auf jedem Fall, unklug u. übereilt – er sezte mir in der Lage ohne 
 <lb/>etwas Persöhnliches gegen ihn zu haben – ihn den Abschied geben zu müßen. –
 <lb/>Ich that alles still schweigend – benahm das Recht denen andern zu sagen
