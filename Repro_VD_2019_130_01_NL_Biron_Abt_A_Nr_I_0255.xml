@@ -311,13 +311,171 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/Swagunke/Dorothea_von_Curland/main/Repro_VD_2019_130_01_NL_Biron_Abt_A_Nr_I_0255.xml?note_annotation_20230913163707979#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p/note"
+			"rdf:value": "TEI/text/body/p/note[3]"
 		}
 	},
 	"oa:hasBody": {
 		"@type": "cwrc:Note",
 		"dc:format": "text/plain",
 		"rdf:value": "Lesung unsicher. "
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.2.2"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/Swagunke/Dorothea_von_Curland/main/Repro_VD_2019_130_01_NL_Biron_Abt_A_Nr_I_0255.xml?note_annotation_20230913163733571",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-09-13T14:37:33.571Z",
+	"dcterms:modified": "2023-09-13T14:37:33.571Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/Swagunke",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Swagunke"
+	},
+	"oa:motivatedBy": "oa:describing",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/Swagunke/Dorothea_von_Curland/main/Repro_VD_2019_130_01_NL_Biron_Abt_A_Nr_I_0255.xml?note_annotation_20230913163733571#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/Swagunke/Dorothea_von_Curland/main/Repro_VD_2019_130_01_NL_Biron_Abt_A_Nr_I_0255.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.2.2"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/Swagunke/Dorothea_von_Curland/main/Repro_VD_2019_130_01_NL_Biron_Abt_A_Nr_I_0255.xml?note_annotation_20230913163733571#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p/note"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:Note",
+		"dc:format": "text/plain",
+		"rdf:value": "Nachträglich eingefügt. "
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.2.2"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/Swagunke/Dorothea_von_Curland/main/Repro_VD_2019_130_01_NL_Biron_Abt_A_Nr_I_0255.xml?note_annotation_20230913163818765",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-09-13T14:38:18.765Z",
+	"dcterms:modified": "2023-09-13T14:38:18.765Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/Swagunke",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Swagunke"
+	},
+	"oa:motivatedBy": "oa:describing",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/Swagunke/Dorothea_von_Curland/main/Repro_VD_2019_130_01_NL_Biron_Abt_A_Nr_I_0255.xml?note_annotation_20230913163818765#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/Swagunke/Dorothea_von_Curland/main/Repro_VD_2019_130_01_NL_Biron_Abt_A_Nr_I_0255.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.2.2"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/Swagunke/Dorothea_von_Curland/main/Repro_VD_2019_130_01_NL_Biron_Abt_A_Nr_I_0255.xml?note_annotation_20230913163818765#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p/note[2]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NoteInternal",
+		"dc:format": "text/plain",
+		"rdf:value": "www.woerterbuchnetz.de/DWB/ausfodern "
 	},
 	"as:generator": {
 		"@id": "https://leaf-writer.leaf-vre.org",
@@ -336,11 +494,11 @@
 <lb/>Mitwoch Der heutige Tag gehört unter die jenigen die man schwerlich im Leben bergißt 
 <lb/>d12ten. wenn ich nicht krank werde – so – ist meine Natur so stark daß sie allem wieder
 <lb/>stehet. Ich danke den Himmel der mir Kraft gnug gab – anscheinend ruhig zu bleiben
-<lb/>und durch keine  übereilte Worte mich in nichts vergeben zu haben. Kaum hatte 
+<lb/>und durch keine<note>Nachträglich eingefügt. </note>  übereilte Worte mich in nichts vergeben zu haben. Kaum hatte 
 <lb/>ich meinen Banquier <persName key="Henry Hentsch" ref="https://www.wikidata.org/wiki/Q15621806">Hentsch</persName> u. Gefährten nebst <persName><persName>Pallard<note type="researchNote">Vielleicht Ballard? </note></persName></persName> in der Frühe
 <lb/>bey mir gehabt, als <persName>Prinz Joseph</persName> blas, zitternd kahm, mir eine Menge unan
 <lb/>genehme Sachen sagte ich kaum vor Erstaunen hörte, denn er zeigte
-<lb/>mir den über eilten Brief von <persName cert="high">Eckhold</persName> der Belmonte ausfodert , weil er ihn
+<lb/>mir den über eilten Brief von <persName cert="high">Eckhold</persName> der Belmonte ausfodert<note type="researchNote">www.woerterbuchnetz.de/DWB/ausfodern </note> , weil er ihn
 <lb/>einen schlechten Menschen geheißen hatte u. zugleich versicherte Fircks$ der ältere 
 <lb/>würde ihn als Secundannt assistiren – dieser wuste zwar nichts davon, u. Eckholts$  
 <lb/>aber<note>Lesung unsicher. </note>  auf jedem Fall, unklug u. übereilt – er sezte mir in der Lage ohne 
